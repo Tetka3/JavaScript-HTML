@@ -24,7 +24,7 @@ const data = [
       id: 3,
       name: "Breitling Superocean Heritage",
       img: "https://m.media-amazon.com/images/I/61hGDiWBU8L._AC_UY879_.jpg",
-      price: 200,
+      price: 1200,
       cat: "Luxury",
     },
     {
@@ -51,9 +51,37 @@ const data = [
       {
         id: 7,
         name: "Garmin Venu Smartwatch ",
+        img: "https://images.pexels.com/photos/9897908/pexels-photo-9897908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price: 2000,
+        cat: "Luxury",
+      },
+      {
+        id: 8,
+        name: "Garmin Venu Smartwatch ",
+        img: "https://images.pexels.com/photos/9897906/pexels-photo-9897906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price: 1500,
+        cat: "Luxury",
+      },
+      {
+        id: 9,
+        name: "Garmin Venu Smartwatch ",
         img: "https://images.pexels.com/photos/1631181/pexels-photo-1631181.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        price: 74,
+        price: 75,
         cat: "Dress",
+      },
+      {
+        id: 10,
+        name: "Garmin Venu Smartwatch ",
+        img: "https://images.pexels.com/photos/6055705/pexels-photo-6055705.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price: 1800,
+        cat: "Luxury",
+      },
+      {
+        id: 11,
+        name: "Garmin Venu Smartwatch ",
+        img: "https://images.pexels.com/photos/9979199/pexels-photo-9979199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price: 100,
+        cat: "Watch",
       },
   ];
   
