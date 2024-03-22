@@ -83,6 +83,48 @@ const data = [
         price: 100,
         cat: "Watch",
       },
+      {
+        id: 12,
+        name: "Garmin Venu Smartwatch ",
+        img: "https://images.pexels.com/photos/6046183/pexels-photo-6046183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price: 100,
+        cat: "Shoes",
+      },
+      {
+        id: 13,
+        name: "Garmin Venu Smartwatch ",
+        img: "https://images.pexels.com/photos/6046235/pexels-photo-6046235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price: 150,
+        cat: "Shoes",
+      },
+      {
+        id: 14,
+        name: "Garmin Venu Smartwatch ",
+        img: "https://images.pexels.com/photos/2078107/pexels-photo-2078107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price: 150,
+        cat: "Dress",
+      },
+      {
+        id: 15,
+        name: "Garmin Venu Smartwatch ",
+        img: "https://images.pexels.com/photos/2270078/pexels-photo-2270078.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price: 150,
+        cat: "Dress",
+      },
+      {
+        id: 16,
+        name: "Garmin Venu Smartwatch ",
+        img: "https://images.pexels.com/photos/794062/pexels-photo-794062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price: 150,
+        cat: "Coats",
+      },
+      {
+        id: 17,
+        name: "Garmin Venu Smartwatch ",
+        img: "https://images.pexels.com/photos/3951783/pexels-photo-3951783.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price: 150,
+        cat: "Coats",
+      },
   ];
   
   const productsContainer = document.querySelector(".products");
