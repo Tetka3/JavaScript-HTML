@@ -39,11 +39,15 @@ body {
   }
   .container {
     display: flex;
-    padding: 50px;
+    padding: 30px;
   }
   
   .leftMenu {
     flex: 1;
+    border: 1px solid rgb(209, 205, 205);
+    border-radius: 5px;
+    padding: 20px;
+    
   }
   
   .search{
