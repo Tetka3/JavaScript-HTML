@@ -196,11 +196,32 @@ const data = [
         cat: "BackPack",
       },
       {
-        id: 24,
+        id: 28,
         name: "Garmin Venu Smartwatch ",
-        img: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "https://images.unsplash.com/photo-1591900947067-851789555ef3?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 150,
-        cat: "BackPack",
+        cat: "Coats",
+      },
+      {
+        id: 28,
+        name: "Garmin Venu Smartwatch ",
+        img: "https://images.unsplash.com/photo-1545912193-41b5212f30ee?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        price: 150,
+        cat: "Coats",
+      },
+      {
+        id: 25,
+        name: "Garmin Venu Smartwatch ",
+        img: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        price: 150,
+        cat: "Jackets",
+      },
+      {
+        id: 26,
+        name: "Garmin Venu Smartwatch ",
+        img: "https://plus.unsplash.com/premium_photo-1670035789445-e289aba72658?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        price: 150,
+        cat: "Jackets",
       },      
   ];
   
