@@ -201,28 +201,7 @@ const data = [
         img: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 150,
         cat: "BackPack",
-      },
-      {
-        id: 24,
-        name: "Garmin Venu Smartwatch ",
-        img: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        price: 150,
-        cat: "BackPack",
-      },
-      {
-        id: 24,
-        name: "Garmin Venu Smartwatch ",
-        img: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        price: 150,
-        cat: "BackPack",
-      },
-      {
-        id: 24,
-        name: "Garmin Venu Smartwatch ",
-        img: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        price: 150,
-        cat: "BackPack",
-      },
+      },      
   ];
   
   const productsContainer = document.querySelector(".products");
