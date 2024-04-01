@@ -126,20 +126,6 @@ const data = [
         cat: "Coats",
       },
       {
-        id: 18,
-        name: "Garmin Venu Smartwatch ",
-        img: "https://images.pexels.com/photos/794435/pexels-photo-794435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        price: 150,
-        cat: "Cars",
-      },
-      {
-        id: 19,
-        name: "Garmin Venu Smartwatch ",
-        img: "https://images.pexels.com/photos/1209774/pexels-photo-1209774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        price: 150,
-        cat: "Cars",
-      },
-      {
         id: 20,
         name: "Garmin Venu Smartwatch ",
         img: "https://images.pexels.com/photos/457418/pexels-photo-457418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
