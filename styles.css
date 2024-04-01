@@ -41,15 +41,18 @@ body {
   }
   .container {
     display: flex;
+    flex-direction: column;
     padding: 30px;
+    
   }
   
   .leftMenu {
-    flex: 1;
+    /* flex: 1; */
     border: 1px solid rgb(209, 205, 205);
     border-radius: 5px;
     padding: 20px;
-    
+    margin-bottom: 10px; 
+    background-color: rgb(230, 226, 226);   
   }
   
   .search{
@@ -68,8 +71,9 @@ body {
   
   .cats{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 10px;
+    
   }
   
   .cat{
@@ -78,13 +82,16 @@ body {
     font-weight: 300;
     padding: 5px;
     text-decoration: underline;
+    
     &:hover{
       background-color: orange;
+      border: 1px solid gray;
+      border-radius: 5px;
     }
   }
   
   .content {
-    flex: 4;
+    /* flex: 4; */
     display: flex;
     
   }
@@ -93,7 +100,6 @@ body {
     display: flex;    
     flex-wrap: wrap;
     gap: 30px;
-    margin-left: 10px;
     border: 1px solid rgb(209, 205, 205);
     border-radius: 5px;
     padding: 20px;
