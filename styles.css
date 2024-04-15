@@ -16,6 +16,9 @@ body {
   flex: 2;
   padding: 50px;
 }
+.left-bar span{
+  cursor: pointer;
+}
 .right-bar{
   flex: 2;
   padding: 50px;
@@ -35,6 +38,8 @@ body {
 }
 .right-bar ul li a:hover{
   background-color: orange;
+  border-radius: 3px;
+  padding: 5px;
 }
 .container {
   display: flex;
@@ -69,13 +74,12 @@ h1{
 .cat{
   cursor: pointer;
   font-size: 16px;
-    font-weight: 300;
-    padding: 8px;    
+  font-weight: 300;
+  padding: 8px;    
 }
 .cat :hover{
   background-color: orange;
-}
-  
+}  
 .content {
   display: flex;
 } 
@@ -97,82 +101,96 @@ h1{
   text-align: center;
   transition: all 0.3s ease;    
 }
-.product :hover{
+.product img:hover{
   transform: scale(1.1);
   cursor: pointer;
-}
-  
+}  
 .product img{
-    width: 150px;
-    height: 200px;
-    object-fit: contain;
-  }
-  
-  .name{
-    font-weight: 300;
-  }
-  .cart-container{
-    display: flex;
-  }
-  .left-cart{
-    flex: 3;
-    border: 1px solid rgb(211, 208, 208);
-    padding: 20px;
-    margin: 10px;
-    border-radius: 5px;
-  }
-  .right-cart{
-    flex: 1;
-    border: 1px solid rgb(211, 208, 208);
-    padding: 20px;
-    margin: 10px;
-    border-radius: 5px;
-  }
-  .login{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;    
-    height: 100vh;
-    width: 100%;    
-    gap: 20px;
-    
-  }
-  .login input{
-    padding: 5px;
-    width: 30%;
-  }
-  .help-container{
-    border: 1px solid rgb(211, 208, 208);
-    padding: 20px;
-    margin: 10px;
-    border-radius: 5px;
-  }
-  .footer{
-    display: flex;
-    height: 30vh;
-    background-color: rgb(41,41,116);
-    color: white;
-    padding: 20px;
-    gap: 10px;
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+}  
+.name{
+  font-weight: 300;
 }
-.left-footer{
-    flex: 1;
-    border: 1px solid rgb(243, 238, 238);
-    padding: 20px;
-    border-radius: 5px;
+.cart-container{
+  display: flex;
 }
-.center-footer{
-    flex: 1;
-    border: 1px solid rgb(243, 238, 238);
-    padding: 20px;
-    border-radius: 5px;
-
+.left-cart{
+  flex: 3;
+  border: 1px solid rgb(211, 208, 208);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
 }
-.right-footer{
-    flex: 1;
-    border: 1px solid rgb(243, 238, 238);
-    padding: 20px;
-    border-radius: 5px;
-
+.right-cart{
+  flex: 1;
+  border: 1px solid rgb(211, 208, 208);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;    
+  height: 100vh;
+  width: 100%;    
+  gap: 20px;   
+}
+.login input{
+  padding: 5px;
+  width: 30%;
+}
+.help-container{
+  border: 1px solid rgb(211, 208, 208);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.footer-div{
+  background-color: rgb(24, 21, 21);
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  color: gold;  
+}
+.top{
+  display: flex;
+  color: white;
+}
+.top-left{
+  flex: 1;
+}
+.top-left ul{
+  list-style: none;
+  margin-left: 20px;
+}
+.top-center{
+  flex: 1;
+}
+.top-center ul{
+  list-style: none;
+  margin-left: 20px;
+}
+.top-right{
+  flex: 1;
+}
+.bottom{
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;      
+}
+.bottom img{
+  width: 40px;
+  height: 30px;   
+}
+.bottom img:hover{
+  transform: scaleX(1.2);
 }
